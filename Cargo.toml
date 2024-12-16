@@ -11,6 +11,9 @@ pin-project = "1.0"
 futures = "0.3"
 uuid = { version = "1.1.2", features = ["v4"] }
 rand = "0.8.5"
+anyhow = "1.0.94"
+tokio-util = { version = "0.7.13", features = ["io"] }
+tokio-stream = { version = "0.1.17", features = ["sync"] }
 
 [dev-dependencies]
 tokio = { version = "1", features = ["full"] }
