@@ -1,4 +1,4 @@
-use encrypted_pipe::prelude::*;
+use multi_read_write::prelude::*;
 use tokio::{
     io::{AsyncReadExt, AsyncWriteExt},
     time::timeout,

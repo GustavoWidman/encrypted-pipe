@@ -3,14 +3,10 @@
 //! This crate provides a simple way to create encrypted streams
 //! that can be used for streaming large files.
 
-// mod crypto;
-extern crate anyhow;
-extern crate chacha20;
-extern crate futures;
 extern crate pin_project;
 extern crate tokio;
-extern crate tokio_stream;
 extern crate tokio_util;
+extern crate uuid;
 
 use tokio::io::{AsyncRead, AsyncWrite};
 
